@@ -1,0 +1,16 @@
+Work with poetry
+
+# update poetry
+$ poetry self update
+
+#install up plugin
+$ poetry self add poetry-plugin-up
+
+# up your dev packages to the latest ⬅
+$ poetry up --only=dev --latest
+
+# add
+$ poetry add pytest@latest --group dev
+
+# Update manually after changes in then *.toml-file
+poetry lock --no-update
